@@ -1,0 +1,5 @@
+<odoo>
+    <record id="view_thimo_rate_list" model="ir.ui.view"><field name="name">thimo.rate.list</field><field name="model">thimo.rate</field><field name="arch" type="xml"><list><field name="name"/><field name="room_type_id"/><field name="date_from"/><field name="date_to"/><field name="price"/></list></field></record>
+    <record id="view_thimo_rate_form" model="ir.ui.view"><field name="name">thimo.rate.form</field><field name="model">thimo.rate</field><field name="arch" type="xml"><form><sheet><group><field name="name"/><field name="room_type_id"/><field name="date_from"/><field name="date_to"/><field name="price"/></group></sheet></form></field></record>
+    <record id="action_thimo_rate" model="ir.actions.act_window"><field name="name">Rates</field><field name="res_model">thimo.rate</field><field name="view_mode">list,form</field></record>
+</odoo>

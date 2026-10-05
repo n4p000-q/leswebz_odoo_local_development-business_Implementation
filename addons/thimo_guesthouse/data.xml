@@ -1,0 +1,8 @@
+<odoo>
+    <record id="seq_thimo_booking" model="ir.sequence">
+        <field name="name">Guest House Booking</field>
+        <field name="code">thimo.booking</field>
+        <field name="prefix">THIMO-</field>
+        <field name="padding">4</field>
+    </record>
+</odoo>

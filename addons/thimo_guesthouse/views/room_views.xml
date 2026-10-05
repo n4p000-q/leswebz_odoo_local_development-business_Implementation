@@ -1,0 +1,5 @@
+<odoo>
+    <record id="view_thimo_room_list" model="ir.ui.view"><field name="name">thimo.room.list</field><field name="model">thimo.room</field><field name="arch" type="xml"><list><field name="name"/><field name="room_type_id"/><field name="floor"/><field name="state"/></list></field></record>
+    <record id="view_thimo_room_form" model="ir.ui.view"><field name="name">thimo.room.form</field><field name="model">thimo.room</field><field name="arch" type="xml"><form><sheet><group><field name="name"/><field name="room_type_id"/><field name="floor"/><field name="state"/></group><field name="notes"/></sheet></form></field></record>
+    <record id="action_thimo_room" model="ir.actions.act_window"><field name="name">Rooms</field><field name="res_model">thimo.room</field><field name="view_mode">list,form</field></record>
+</odoo>

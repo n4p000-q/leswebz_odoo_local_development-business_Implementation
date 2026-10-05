@@ -1,0 +1,18 @@
+# Local Odoo configuration / secrets
+config/odoo.conf
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Odoo generated files
+*.log
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary/archive files
+*.zip

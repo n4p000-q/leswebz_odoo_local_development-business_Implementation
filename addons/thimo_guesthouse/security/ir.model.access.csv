@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_thimo_guest,thimo.guest,model_thimo_guest,base.group_user,1,1,1,1
+access_thimo_room_type,thimo.room.type,model_thimo_room_type,base.group_user,1,1,1,1
+access_thimo_room,thimo.room,model_thimo_room,base.group_user,1,1,1,1
+access_thimo_rate,thimo.rate,model_thimo_rate,base.group_user,1,1,1,1
+access_thimo_booking,thimo.booking,model_thimo_booking,base.group_user,1,1,1,1

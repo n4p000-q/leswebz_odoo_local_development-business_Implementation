@@ -1,0 +1,10 @@
+<odoo>
+    <menuitem id="menu_thimo_root" name="Thimo Guest House" sequence="10"/>
+    <menuitem id="menu_thimo_operations" name="Operations" parent="menu_thimo_root" sequence="10"/>
+    <menuitem id="menu_thimo_booking" name="Bookings" parent="menu_thimo_operations" action="action_thimo_booking" sequence="10"/>
+    <menuitem id="menu_thimo_guest" name="Guests" parent="menu_thimo_operations" action="action_thimo_guest" sequence="20"/>
+    <menuitem id="menu_thimo_configuration" name="Configuration" parent="menu_thimo_root" sequence="20"/>
+    <menuitem id="menu_thimo_room" name="Rooms" parent="menu_thimo_configuration" action="action_thimo_room" sequence="10"/>
+    <menuitem id="menu_thimo_room_type" name="Room Types" parent="menu_thimo_configuration" action="action_thimo_room_type" sequence="20"/>
+    <menuitem id="menu_thimo_rate" name="Rates" parent="menu_thimo_configuration" action="action_thimo_rate" sequence="30"/>
+</odoo>
