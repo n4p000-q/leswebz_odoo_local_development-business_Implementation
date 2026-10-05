@@ -30,8 +30,8 @@ cd leswebz
 
 Create .env:
 
-POSTGRES_USER=odoo
-POSTGRES_PASSWORD=odoo
+POSTGRES_USER=****
+POSTGRES_PASSWORD=****
 3. Create the local Odoo configuration
 
 Copy the example configuration:
